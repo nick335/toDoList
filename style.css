@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+	margin: 20px;
+}
+li{
+	text-decoration: none;
+	color: black;
+	background: #355C7D;   fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);   /*Chrome 10-25, Safari 5.1-6*/ 
+	background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/ 
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+
+}
+
+}
+.container{
+	max-width: 1200px;
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+}
+.container h1{
+	text-align: center;
+	background: #355C7D;  /* fallback for old browsers 
+	background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.input_el{
+	align-content: center;
+	width: 99%;
+	margin: 10px auto;
+	padding: 5px 10px;
+	box-shadow: none;
+}
+.btn_div{
+	text-align: center;
+}
+button{
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
